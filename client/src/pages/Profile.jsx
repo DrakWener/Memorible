@@ -12,17 +12,15 @@ export default function Profile() {
 
       <Header></Header>
 
-      <div className='h-[89%] grid xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-4 w-full'>
+      <div className='h-[91.8%] grid xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-4 w-full'>
         
         {/* SideMenu */}
 
         <SideMenu user={user}></SideMenu>
 
         {/* Content */}
-        <div className='xl:col-span-5 lg:col-span-5 md:col-span-4 sm:col-span-3 bg-gray-100'>
-          <div>
-            
-          </div>
+        <div className='xl:col-span-5 py-6 px-10 lg:col-span-5 md:col-span-4 sm:col-span-3 bg-gray-100'>
+
         </div>
 
       </div>
